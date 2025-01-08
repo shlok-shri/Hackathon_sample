@@ -8,9 +8,15 @@ export default {
     extend: {
       colors: {
 
-        "coral-green": "#264653", // Your custom blue color
-        "nav-text" : '#F9F6F0',
-
+        "nav-text": "#ffffff",
+        "nav-color": "#ff6f61",
+        "background": "#f7f9fc",
+        "text": "#2b2d42",
+        "card-background": "#ffffff",
+        "card-text": "#333333",
+        "heading": "#ff6f61",
+        "content": "#4a4a4a",
+        "card-hover": "#ffeadb"
 
       },
     },

@@ -19,11 +19,11 @@ function Header() {
       slug: "/login",
       active: !authStatus,
   },
-  {
+    {
       name: "Signup",
       slug: "/signup",
       active: !authStatus,
-  },
+    },
   {
       name: "All Posts",
       slug: "/all-posts",
@@ -38,7 +38,7 @@ function Header() {
 
 
   return (
-    <header className='py-3 shadow bg-corral-green border-none text-nav-text'>
+    <header className='py-3 shadow bg-nav-color border-none text-nav-text'>
       <Container>
         <nav className='flex align-middle'>
           <div className='mr-4'>
